@@ -196,13 +196,20 @@
         <div class="row gy-4">
 
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+          <div class="container">
+  <div class="row gy-4">
+    <div class="col-lg-5 order-1 order-lg-1 why-us-img">
+      <img src="assets/img/foto.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+    </div>
+    <div class="col-lg-7 order-2 order-lg-2 content px-xl-2" data-aos="fade-up" data-aos-delay="100">
+      <h3><span>PT Swabina Gatra</span></h3>
+      <p>
+        PT Swabina Gatra atau yang lebih dikenal dengan nama SWA adalah perusahaan swasta nasional dan merupakan bagian dari Semen Indonesia Group. Berdiri sejak tahun 1988, SWA memiliki kisah sukses yang panjang dan terus tumbuh menjadi perusahaan modern, profesional dan bereputasi prima. SWA memiliki 5 lini bisnis utama yaitu Penyediaan Tenaga Kerja, produksi Air Minum Dalam Kemasan, Jasa Agen Perjalanan, Solusi Teknologi Informasi serta Lembaga Diklat & Sertifikasi.
+      </p>
+    </div>
+  </div>
+</div>
 
-            <div class="content px-xl-2" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>PT Swabina Gatra</span> </h3 .
-              <p>
-              PT Swabina Gatra atau yang lebih dikenal dengan nama SWA adalah perusahaan swasta nasional dan merupakan bagian dari Semen Indonesia Group. Berdiri sejak tahun 1988, SWA memiliki kisah sukses yang panjang dan terus tumbuh menjadi perusahaan modern, profesional dan bereputasi prima. SWA memiliki 5 lini bisnis utama yaitu Penyediaan Tenaga Kerja, produksi Air Minum Dalam Kemasan, Jasa Agen Perjalanan, Solusi Teknologi Informasi serta Lembaga Diklat & Sertifikasi.
-              </p>
-            </div>
             
 
             <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
@@ -212,9 +219,7 @@
 
           </div>
 
-          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
+        
         </div>
 
       </div>
@@ -228,10 +233,10 @@
 
         <div class="row">
 
-          <div class="col-lg-6 d-flex align-items-center">
-            <img src="assets/img/skills.png" class="img-fluid" alt="">
-          </div>
-
+          
+          <div class="container section-title" data-aos="fade-up">
+  <h2>Layanan Area kami</h2>
+</div><!-- End Section Title -->
           <div class="col-lg-6 pt-4 pt-lg-0 content">
 
             <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
@@ -996,6 +1001,9 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
