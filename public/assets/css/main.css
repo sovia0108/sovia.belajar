@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #3077BC; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #47b2e4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -2064,4 +2064,23 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+.kotak-table {
+  border-collapse: collapse; /* Menghilangkan space antara sel */
+}
+
+.kotak {
+  width: 100px; /* Lebar kotak */
+  height: 100px; /* Tinggi kotak */
+  background-color: #007bff; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  text-align: center; /* Memusatkan teks */
+  vertical-align: middle; /* Memusatkan teks secara vertikal */
+  border: 2px solid #0056b3; /* Garis border */
+  margin: 5px; /* Jarak antar kotak */
+  font-size: 16px; /* Ukuran font */
+}
+
+.kotak:hover {
+  background-color: #0056b3; /* Warna saat hover */
 }

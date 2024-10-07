@@ -79,7 +79,9 @@ unggul di bidangnya </p>
 
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Selengkapnya</a>
-             
+              <table class="kotak-table">
+    
+</table>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
@@ -95,55 +97,6 @@ unggul di bidangnya </p>
 
       <div class="container" data-aos="zoom-in">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 120
-                },
-                "1200": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-        </div>
 
       </div>
 
@@ -152,40 +105,104 @@ unggul di bidangnya </p>
     <!-- About Section -->
     <section id="about" class="about section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Produk & Layanan </h2>
-      </div><!-- End Section Title -->
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>Produk & Layanan</h2>
+</div><!-- End Section Title -->
 
-      <div class="container">
+<div class="container">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
-            </ul>
+  <div class="row gy-4"> </div>
+  <!-- New Service Boxes Section -->
+  <div class="row">
+    <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box p-4 border rounded">
+              <div class="icon mb-3">
+                <i class="bi bi-star" style="font-size: 40px; color: #007bff;"></i>
+              </div>
+              <h4>Fitur Utama</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box p-4 border rounded">
+              <div class="icon mb-3">
+                <i class="bi bi-gear" style="font-size: 40px; color: #007bff;"></i>
+              </div>
+              <h4>Pengaturan Mudah</h4>
+              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
           </div>
-
+          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box p-4 border rounded">
+              <div class="icon mb-3">
+                <i class="bi bi-shield-lock" style="font-size: 40px; color: #007bff;"></i>
+              </div>
+              <h4>Keamanan Terjamin</h4>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
         </div>
-
       </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box p-4 border rounded">
+              <div class="icon mb-3">
+                <i class="bi bi-lightbulb" style="font-size: 40px; color: #007bff;"></i>
+              </div>
+              <h4>Inovasi Terbaru</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box p-4 border rounded">
+              <div class="icon mb-3">
+                <i class="bi bi-people" style="font-size: 40px; color: #007bff;"></i>
+              </div>
+              <h4>Tim Profesional</h4>
+              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="800">
+            <div class="service-box p-4 border rounded">
+              <div class="icon mb-3">
+                <i class="bi bi-check-circle" style="font-size: 40px; color: #007bff;"></i>
+              </div>
+              <h4>Jaminan Kualitas</h4>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  <!-- End of Service Boxes Section -->
 
-    </section><!-- /About Section -->
+</div>
+
+</section><!-- /About Section -->
+
 
     <!-- Why Us Section -->
     <section id="why-us" class="section why-us light-background" data-builder="section">
+    <div class="container section-title" data-aos="fade-up">
+  <h2>Tentang Kami</h2>
+</div><!-- End Section Title -->
 
       <div class="container-fluid">
 
@@ -1002,6 +1019,9 @@ unggul di bidangnya </p>
 
   <!-- Preloader -->
   <div id="preloader"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
