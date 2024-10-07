@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 Route::get('/beranda', function () {
     return view('beranda');
 })->name('beranda');
 
 Route::get('/sovia-bauk', function () {
-    return view('index');
+    return view('welcome');
 })->name('sovia');

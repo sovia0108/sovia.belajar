@@ -74,9 +74,8 @@
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1>PT Swabina Gatra</h1>
             <p>Menjadi perusahaan yang dapat tumbuh
-dan berkembang dengan sehat dan selalu
-unggul di bidangnya </p>
-
+              dan berkembang dengan sehat dan selalu
+              unggul di bidangnya </p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Selengkapnya</a>
               <table class="kotak-table">
@@ -101,9 +100,6 @@ unggul di bidangnya </p>
       </div>
 
     </section><!-- /Clients Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
 
 <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
@@ -166,15 +162,6 @@ unggul di bidangnya </p>
               </div>
               <h4>Tim Profesional</h4>
               <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="800">
-            <div class="service-box p-4 border rounded">
-              <div class="icon mb-3">
-                <i class="bi bi-check-circle" style="font-size: 40px; color: #007bff;"></i>
-              </div>
-              <h4>Jaminan Kualitas</h4>
-              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
