@@ -2058,3 +2058,9 @@ section,
 .kotak:hover {
   background-color: #0056b3; /* Warna saat hover */
 }
+.custom-service-box {
+  width: 418px;
+  height: 385px;
+  background: #DFECFF;
+  border-radius: 20px;
+}
