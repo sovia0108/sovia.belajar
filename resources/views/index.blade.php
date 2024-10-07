@@ -116,30 +116,27 @@
       <div class="carousel-item active">
         <div class="row">
           <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box p-4 border rounded">
-              <div class="icon mb-3">
-                <i class="bi bi-star" style="font-size: 40px; color: #007bff;"></i>
-              </div>
-              <h4>Fitur Utama</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center"> <!-- Apply Flexbox classes -->
+                <div class="icon mb-3">
+                    <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" style="width: 144.99px; height: 137px;">
+                </div>
+                <h4 class="text-center">SWA Facility Management</h4>
             </div>
           </div>
           <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box p-4 border rounded">
+            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
               <div class="icon mb-3">
-                <i class="bi bi-gear" style="font-size: 40px; color: #007bff;"></i>
+                <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" style="width: 144.99px; height: 137px;">
               </div>
-              <h4>Pengaturan Mudah</h4>
-              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h4>SWA Digital Solution </h4>
             </div>
           </div>
           <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box p-4 border rounded">
+            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
               <div class="icon mb-3">
-                <i class="bi bi-shield-lock" style="font-size: 40px; color: #007bff;"></i>
+                <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" style="width: 144.99px; height: 137px;">
               </div>
-              <h4>Keamanan Terjamin</h4>
-              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <h4>SWA Segar</h4>
             </div>
           </div>
         </div>
@@ -147,21 +144,19 @@
       <div class="carousel-item">
         <div class="row">
           <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box p-4 border rounded">
+            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
               <div class="icon mb-3">
-                <i class="bi bi-lightbulb" style="font-size: 40px; color: #007bff;"></i>
+                <img src="{{ asset('assets/img/academy.png') }}" alt="Academy" style="width: 144.99px; height: 137px;">
               </div>
-              <h4>Inovasi Terbaru</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4>SWA Academy </h4>
             </div>
           </div>
           <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box p-4 border rounded">
+            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
               <div class="icon mb-3">
-                <i class="bi bi-people" style="font-size: 40px; color: #007bff;"></i>
+                <img src="{{ asset('assets/img/tour.png') }}" alt="Tour" style="width: 144.99px; height: 137px;">
               </div>
-              <h4>Tim Profesional</h4>
-              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h4>SWA Facility Management</h4>
             </div>
           </div>
         </div>
