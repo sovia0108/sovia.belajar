@@ -112,65 +112,66 @@
   <!-- New Service Boxes Section -->
   <div class="row">
     <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center"> <!-- Apply Flexbox classes -->
-                <div class="icon mb-3">
-                    <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" style="width: 144.99px; height: 137px;">
-                </div>
-                <h4 class="text-center">SWA Facility Management</h4>
-            </div>
-          </div>
-          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
-              <div class="icon mb-3">
-                <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" style="width: 144.99px; height: 137px;">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row">
+                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
+                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                          <div class="icon mb-3">
+                              <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" class="img-fluid" style="max-width: 100%; height: auto;">
+                          </div>
+                          <h4 class="text-center">SWA Facility Management</h4>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                          <div class="icon mb-3">
+                              <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" class="img-fluid" style="max-width: 100%; height: auto;">
+                          </div>
+                          <h4>SWA Digital Solution</h4>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
+                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                          <div class="icon mb-3">
+                              <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" class="img-fluid" style="max-width: 100%; height: auto;">
+                          </div>
+                          <h4>SWA Segar</h4>
+                      </div>
+                  </div>
               </div>
-              <h4>SWA Digital Solution </h4>
-            </div>
           </div>
-          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
-              <div class="icon mb-3">
-                <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" style="width: 144.99px; height: 137px;">
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
+                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                          <div class="icon mb-3">
+                              <img src="{{ asset('assets/img/academy.png') }}" alt="Academy" class="img-fluid" style="max-width: 100%; height: auto;">
+                          </div>
+                          <h4>SWA Academy</h4>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
+                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                          <div class="icon mb-3">
+                              <img src="{{ asset('assets/img/tour.png') }}" alt="Tour" class="img-fluid" style="max-width: 100%; height: auto;">
+                          </div>
+                          <h4>SWA Facility Management</h4>
+                      </div>
+                  </div>
               </div>
-              <h4>SWA Segar</h4>
-            </div>
           </div>
-        </div>
       </div>
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
-              <div class="icon mb-3">
-                <img src="{{ asset('assets/img/academy.png') }}" alt="Academy" style="width: 144.99px; height: 137px;">
-              </div>
-              <h4>SWA Academy </h4>
-            </div>
-          </div>
-          <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center">
-              <div class="icon mb-3">
-                <img src="{{ asset('assets/img/tour.png') }}" alt="Tour" style="width: 144.99px; height: 137px;">
-              </div>
-              <h4>SWA Facility Management</h4>
-            </div>
-          </div>
-        </div>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    
     </div>
-   
-    <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
   </div>
   <!-- End of Service Boxes Section -->
