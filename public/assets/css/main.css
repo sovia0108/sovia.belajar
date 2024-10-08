@@ -517,7 +517,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #26508F;
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -589,7 +589,7 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: #ffffff;
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -600,6 +600,7 @@ h6 {
 }
 
 .footer h4 {
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   position: relative;
@@ -653,6 +654,7 @@ h6 {
 
 .footer .footer-contact p {
   margin-bottom: 5px;
+  color: #ffffff;
 }
 
 .footer .copyright {
@@ -662,6 +664,7 @@ h6 {
 }
 
 .footer .copyright p {
+  color: #ffffff;
   margin-bottom: 0;
 }
 

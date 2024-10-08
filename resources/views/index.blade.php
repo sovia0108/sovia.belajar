@@ -359,7 +359,7 @@
           </div>
           <div>
             <h4 class="sitename">PT Swabina Gatra</h4>
-            <p>PT Swabina Gatra, atau SWA, adalah perusahaan swasta nasional yang bagian dari Semen Indonesia Group. Berdiri sejak 1988, SWA terus berkembang menjadi perusahaan modern dan profesional. SWA memiliki lima bidang utama: penyediaan tenaga kerja, produksi air minum kemasan, jasa agen perjalanan, solusi teknologi informasi, dan lembaga pelatihan serta sertifikasi.</p>
+            <p style="color: #ffffff">PT Swabina Gatra, atau SWA, adalah perusahaan swasta nasional yang bagian dari Semen Indonesia Group. Berdiri sejak 1988, SWA terus berkembang menjadi perusahaan modern dan profesional. SWA memiliki lima bidang utama: penyediaan tenaga kerja, produksi air minum kemasan, jasa agen perjalanan, solusi teknologi informasi, dan lembaga pelatihan serta sertifikasi.</p>
           </div>
         </div>
     
