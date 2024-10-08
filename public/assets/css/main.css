@@ -2041,9 +2041,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 .kotak-table {
   border-collapse: collapse; /* Menghilangkan space antara sel */
 }
@@ -2093,7 +2090,6 @@ section,
   object-fit: cover;
   border-radius: 40px;
 }
-<style>
         .team-member {
             display: flex;
             flex-direction: column;
@@ -2120,4 +2116,4 @@ section,
             font-size: 14px;
             color: #333;
         }
-    </style>
+
