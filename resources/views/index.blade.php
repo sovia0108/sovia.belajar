@@ -13,6 +13,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -66,6 +67,7 @@
 
   <main class="main">
 
+    {{-- header start --}}
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
@@ -78,9 +80,6 @@
               unggul di bidangnya </p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Selengkapnya</a>
-              <table class="kotak-table">
-    
-</table>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
@@ -90,104 +89,97 @@
       </div>
 
     </section><!-- /Hero Section -->
+    {{-- header end --}}
+ 
+    {{-- produk & layanan start --}}
+    <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Produk & Layanan</h2>
+        </div><!-- End Section Title -->
+        <div class="container">
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section light-background">
-
-      <div class="container" data-aos="zoom-in">
-
-
-      </div>
-
-    </section><!-- /Clients Section -->
-
-<!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>Produk & Layanan</h2>
-</div><!-- End Section Title -->
-
-<div class="container">
-
-  <div class="row gy-4"> </div>
-  <!-- New Service Boxes Section -->
-  <div class="row">
-    <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-          <div class="carousel-item active">
-              <div class="row">
-                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
-                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                          <div class="icon mb-3">
-                              <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" class="img-fluid" style="max-width: 100%; height: auto;">
+          <div class="row gy-4"> </div>
+          <!-- New Service Boxes Section -->
+          <div class="row">
+            <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
+                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                                  <div class="icon mb-3">
+                                      <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" class="img-fluid" style="max-width: 100%; height: auto;">
+                                  </div>
+                                  <h4 class="text-center">SWA Facility Management</h4>
+                              </div>
                           </div>
-                          <h4 class="text-center">SWA Facility Management</h4>
+                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                                  <div class="icon mb-3">
+                                      <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" class="img-fluid" style="max-width: 100%; height: auto;">
+                                  </div>
+                                  <h4>SWA Digital Solution</h4>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
+                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                                  <div class="icon mb-3">
+                                      <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" class="img-fluid" style="max-width: 100%; height: auto;">
+                                  </div>
+                                  <h4>SWA Segar</h4>
+                              </div>
+                          </div>
                       </div>
                   </div>
-                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
-                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                          <div class="icon mb-3">
-                              <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" class="img-fluid" style="max-width: 100%; height: auto;">
+                  <div class="carousel-item">
+                      <div class="row">
+                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
+                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                                  <div class="icon mb-3">
+                                      <img src="{{ asset('assets/img/academy.png') }}" alt="Academy" class="img-fluid" style="max-width: 100%; height: auto;">
+                                  </div>
+                                  <h4>SWA Academy</h4>
+                              </div>
                           </div>
-                          <h4>SWA Digital Solution</h4>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
-                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                          <div class="icon mb-3">
-                              <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" class="img-fluid" style="max-width: 100%; height: auto;">
+                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
+                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
+                                  <div class="icon mb-3">
+                                      <img src="{{ asset('assets/img/tour.png') }}" alt="Tour" class="img-fluid" style="max-width: 100%; height: auto;">
+                                  </div>
+                                  <h4>SWA Facility Management</h4>
+                              </div>
                           </div>
-                          <h4>SWA Segar</h4>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="carousel-item">
-              <div class="row">
-                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
-                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                          <div class="icon mb-3">
-                              <img src="{{ asset('assets/img/academy.png') }}" alt="Academy" class="img-fluid" style="max-width: 100%; height: auto;">
-                          </div>
-                          <h4>SWA Academy</h4>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
-                      <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                          <div class="icon mb-3">
-                              <img src="{{ asset('assets/img/tour.png') }}" alt="Tour" class="img-fluid" style="max-width: 100%; height: auto;">
-                          </div>
-                          <h4>SWA Facility Management</h4>
                       </div>
                   </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            
+            </div>
           </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-      </button>
-    
-    </div>
-  </div>
-  </div>
-  <!-- End of Service Boxes Section -->
+          </div>
+          <!-- End of Service Boxes Section -->
 
-</div>
+        </div>
 
-</section><!-- /About Section -->
+    </section><!-- /About Section -->
+    {{-- produk & layanan end --}}
 
 
-    <!-- Why Us Section -->
+    {{-- <!-- Why Us Section -->
     <section id="why-us" class="section why-us light-background" data-builder="section">
     <div class="container section-title" data-aos="fade-up">
-  <h2>Tentang Kami</h2>
-</div><!-- End Section Title -->
+      <h2>Tentang Kami</h2>
+    </div><!-- End Section Title -->
 
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="row gy-4">
 
@@ -220,64 +212,51 @@
 
       </div>
 
-    </section><!-- /Why Us Section -->
+    </section><!-- /Why Us Section --> --}}
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-
-          
-          <div class="container section-title" data-aos="fade-up">
-  <h2>Layanan Area kami</h2>
-</div><!-- End Section Title -->
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-
-            <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-
-            <div class="skills-content skills-animation">
-
-              <div class="progress">
-                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row">
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Layanan Area kami</h2>
+                </div><!-- End Section Title -->
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide custom-carousel" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/manager.png" class="d-block w-100 img-fluid" alt="Manager">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/manager1.png" class="d-block w-100 img-fluid" alt="Manager 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/manager2.png" class="d-block w-100 img-fluid" alt="Manager 2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3>PT Swabina Gatra</h3>
+                            <p style="color: #002359">
+                                PT Swabina Gatra atau yang lebih dikenal dengan nama SWA adalah perusahaan swasta 
+                                nasional dan merupakan bagian dari Semen Indonesia Group. Berdiri sejak tahun 1988, 
+                                SWA memiliki kisah sukses yang panjang dan terus tumbuh menjadi perusahaan modern, 
+                                profesional dan bereputasi prima. SWA memiliki 5 lini bisnis utama yaitu Penyediaan 
+                                Tenaga Kerja, produksi Air Minum Dalam Kemasan, Jasa Agen Perjalanan, Solusi Teknologi 
+                                Informasi serta Lembaga Diklat & Sertifikasi.
+                            </p>
+                            <button type="button" class="btn btn-outline-custom">
+                                Selengkapnya <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
             </div>
-
-          </div>
         </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
+    </section>
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
