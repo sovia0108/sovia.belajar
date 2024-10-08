@@ -157,8 +157,16 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 50px;
+  margin-right: 20px;
+}
+
+.header .logo p{
+  font-size: 10px;
+  font-weight: 100;
+  color: var(--heading-color);
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .header .logo h1 {

@@ -42,11 +42,15 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="index.html" class="logo d-flex align-items-start me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">PT Swabina Gatra</h1>
-      </a>
+        <img src="assets/img/swa.png" alt="" class="me-6"> <!-- Add margin-end to separate the image from the text -->
+        <div class="d-flex flex-column">
+            <p class="mb-1">Kantor Pusat & Pabrik AMDK</p>
+            <p class="mb-1">Jl. R.A. Kartini No.21 A Gresik 61122</p>
+            <p class="mb-1">Jawa Timur</p>
+        </div>
+    </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -73,7 +77,10 @@
 
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+          <div class="col-lg-6 order-1 order-lg-1 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-2 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1>PT Swabina Gatra</h1>
             <p>Menjadi perusahaan yang dapat tumbuh
               dan berkembang dengan sehat dan selalu
@@ -81,9 +88,6 @@
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Selengkapnya</a>
             </div>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
