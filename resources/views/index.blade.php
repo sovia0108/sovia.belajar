@@ -254,38 +254,53 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Berita</h2>
         <div class="container">
+        <div class="container">
     <div class="row gy-4">
-        
+
         <!-- Anggota Tim Pertama -->
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-                <div class="pic">
-                    <img src="assets/img/team/satu.png" class="img-fluid" alt="Walter White">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member text-center">
+                <div class="why-us-img">
+                    <img src="assets/img/foto.png" class="img-fluid" alt="Pelatihan Character Building" data-aos="zoom-in" data-aos-delay="100">
                 </div>
                 <div class="member-info">
                     <h4>Pelatihan Character Building di Kantor SWA</h4>
-                    <span>Chief Executive Officer</span>
-                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi.</p>
+                    <p>Pelatihan ini bertujuan untuk membangun karakter karyawan dalam meningkatkan kinerja tim.</p>
                 </div>
             </div>
         </div>
 
         <!-- Anggota Tim Kedua -->
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-                <div class="pic">
-                    <img src="assets/img/team/dua.png" class="img-fluid" alt="Sarah Jhonson">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member text-center">
+                <div class="why-us-img">
+                    <img src="assets/img/foto.png" class="img-fluid" alt="Sarah Johnson" data-aos="zoom-in" data-aos-delay="100">
                 </div>
                 <div class="member-info">
                     <h4>Sarah Jhonson</h4>
                     <span>Product Manager</span>
-                    <p>Aut maiores voluptates amet et quis praesentium qui senda para.</p>
+                    <p>Mengelola pengembangan produk yang inovatif dan berkelanjutan untuk meningkatkan kualitas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Anggota Tim Ketiga -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member text-center">
+                <div class="why-us-img">
+                    <img src="assets/img/foto.png" class="img-fluid" alt="William Anderson" data-aos="zoom-in" data-aos-delay="100">
+                </div>
+                <div class="member-info">
+                    <h4>William Anderson</h4>
+                    <span>CTO</span>
+                    <p>Memimpin inovasi teknologi di perusahaan, memastikan bahwa sistem operasional berjalan lancar.</p>
                 </div>
             </div>
         </div>
 
     </div><!-- End Row -->
 </div><!-- End Container -->
+
     
 
      
