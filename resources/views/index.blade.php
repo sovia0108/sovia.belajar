@@ -42,11 +42,15 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="index.html" class="logo d-flex align-items-start me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">PT Swabina Gatra</h1>
-      </a>
+        <img src="assets/img/swa.png" alt="" class="me-6"> <!-- Add margin-end to separate the image from the text -->
+        <div class="d-flex flex-column">
+            <p class="mb-1">Kantor Pusat & Pabrik AMDK</p>
+            <p class="mb-1">Jl. R.A. Kartini No.21 A Gresik 61122</p>
+            <p class="mb-1">Jawa Timur</p>
+        </div>
+    </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -73,7 +77,10 @@
 
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+          <div class="col-lg-6 order-1 order-lg-1 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-2 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1>PT Swabina Gatra</h1>
             <p>Menjadi perusahaan yang dapat tumbuh
               dan berkembang dengan sehat dan selalu
@@ -81,9 +88,6 @@
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Selengkapnya</a>
             </div>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -285,62 +289,64 @@
     {{-- layanan area kami end --}}
 
     <!-- Services Section -->
-    <section id="Berita" class="services section light-background">
+    <section id="Berita" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Berita</h2>
         <div class="container">
+<<<<<<< HEAD
                 <div class="row gy-4">
                   <div class="col-lg-6 ms-lg-auto mb-4" data-aos="fade-up" data-aos-delay="200" style="text-align: right; font-size : 20px;"> <!-- Added mb-4 class -->
                     <a href="#" class="read-more" style="color : #26508F; font-weight: 600;">Lihat Layanan Selengkapnya<i class="bi bi-arrow-right"></i></a>
                   </div>
         <div class="container">
+=======
+        <div class="row gy-4">
+>>>>>>> 9f57dc907947351b0c24957a037b3823bcb607c7
 
-    <div class="row gy-4">
-
-        <!-- Anggota Tim Pertama -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member text-center">
-                <div class="why-us-img">
-                    <img src="assets/img/satu.png" class="img-fluid" alt="Pelatihan Character Building" data-aos="zoom-in" data-aos-delay="100">
-                </div>
-                <div class="member-info">
-                    <h4>Pelatihan Character Building di Kantor SWA</h4>
-                    <p>Pelatihan Character Building di SWA bertujuan membentuk karakter individu yang unik. Karyawan dapat mengembangkan diri, mencapai prestasi, dan menunjukkan semangat yang membanggakan.</p>
+            <!-- Anggota Tim Pertama -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="team-member text-center">
+                    <div class="why-us-img">
+                        <img src="assets/img/satu.png" class="img-fluid" alt="Pelatihan Character Building" data-aos="zoom-in" data-aos-delay="100">
+                    </div>
+                    <div class="member-info mt-4">
+                        <h4>Pelatihan Character Building di Kantor SWA</h4>
+                        <p>Pelatihan Character Building di SWA bertujuan membentuk karakter individu yang unik. Karyawan dapat mengembangkan diri, mencapai prestasi, dan menunjukkan semangat yang membanggakan.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Anggota Tim Kedua -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member text-center">
-                <div class="why-us-img">
-                    <img src="assets/img/dua.png" class="img-fluid" alt="Sarah Johnson" data-aos="zoom-in" data-aos-delay="100">
-                </div>
-                <div class="member-info">
-                    <h4>SWA Gresik Cup Ajang Bulutangki Bergengsi</h4>
-                    <p>Turnamen Bulu Tangkis SWA Gresik Cup sukses mendukung olahraga usia dini, mempererat silaturahmi, dan mempromosikan brand SWA dengan antusiasme tinggi.</p>
+            <!-- Anggota Tim Kedua -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="team-member text-center">
+                    <div class="why-us-img">
+                        <img src="assets/img/dua.png" class="img-fluid" alt="Sarah Johnson" data-aos="zoom-in" data-aos-delay="100">
+                    </div>
+                    <div class="member-info mt-4">
+                        <h4>SWA Gresik Cup Ajang Bulutangki Bergengsi</h4>
+                        <p>Turnamen Bulu Tangkis SWA Gresik Cup sukses mendukung olahraga usia dini, mempererat silaturahmi, dan mempromosikan brand SWA dengan antusiasme tinggi.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Anggota Tim Ketiga -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member text-center">
-                <div class="why-us-img">
-                    <img src="assets/img/tiga.png" class="img-fluid" alt="William Anderson" data-aos="zoom-in" data-aos-delay="100">
-                </div>
-                <div class="member-info">
-                    <h4>Penerimaan Sertifikat ISO 450001 : 
-                      2018 dan 140001 : 2015</h4>
-                    <p>Penerimaan Sertifikat ISO 450001 : 2018 dan 140001 : 2015 yang di peroleh SWA merupakan hasil dari usaha terbaik SWA untuk meningkatkan standar mutu demi kepuasan pelanggan dan penyediaan produk serta layanan yang berkualitas.
-                    </p>
+            <!-- Anggota Tim Ketiga -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="team-member text-center">
+                    <div class="why-us-img">
+                        <img src="assets/img/tiga.png" class="img-fluid" alt="William Anderson" data-aos="zoom-in" data-aos-delay="100">
+                    </div>
+                    <div class="member-info mt-4">
+                        <h4>Penerimaan Sertifikat ISO 450001 : 
+                          2018 dan 140001 : 2015</h4>
+                        <p>Penerimaan Sertifikat ISO 450001 : 2018 dan 140001 : 2015 yang di peroleh SWA merupakan hasil dari usaha terbaik SWA untuk meningkatkan standar mutu demi kepuasan pelanggan dan penyediaan produk serta layanan yang berkualitas.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div><!-- End Row -->
+        </div><!-- End Row -->
 </div><!-- End Container -->
 
   <footer id="footer" class="footer">
