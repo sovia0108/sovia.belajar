@@ -209,6 +209,9 @@ h6 {
     order: 3;
   }
 }
+.btn-custom-radius {
+    border-radius: 15px;
+}
 
 /* Index Page Header
 ------------------------------*/
