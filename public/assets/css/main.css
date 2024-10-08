@@ -1108,12 +1108,17 @@ section,
 # Skills Section
 --------------------------------------------------------------*/
 .skills .content h3 {
-  font-size: 2rem;
+  color: #002359;
+  font-size: 36px;
   font-weight: 700;
 }
 
 .skills .content p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+
+  color: #002359;
+  font-size: 20px;
+  color: color-mix(in srgb, var(--default-color), transparent 10%);
+  text-align:justify;
 }
 
 .skills .content p:last-child {
@@ -2036,9 +2041,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 .kotak-table {
   border-collapse: collapse; /* Menghilangkan space antara sel */
 }
@@ -2064,7 +2066,30 @@ section,
   background: #DFECFF;
   border-radius: 20px;
 }
-<style>
+.btn-outline-custom {
+  font-size: 20px;
+  border-radius: 15px;
+  color: #002359;;
+  border-color: #002359;
+  
+}
+.btn-outline-custom:hover {
+  background-color: #002359;
+  color: #fff;
+}
+.custom-carousel {
+  max-width: 610px;
+  max-height: 1080px;
+  width: 100%;
+  margin: 0 auto; /* Center the carousel */
+}
+
+.custom-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
         .team-member {
             display: flex;
             flex-direction: column;
@@ -2091,4 +2116,28 @@ section,
             font-size: 14px;
             color: #333;
         }
-    </style>
+        .btn-outline-custom {
+          font-size: 20px;
+          border-radius: 15px;
+          color: #002359;;
+          border-color: #002359;
+          
+        }
+        .btn-outline-custom:hover {
+          background-color: #002359;
+          color: #fff;
+        }
+        .custom-carousel {
+          max-width: 610px;
+          max-height: 1080px;
+          width: 100%;
+          margin: 0 auto; /* Center the carousel */
+        }
+        
+        .custom-carousel img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 40px;
+        }
+
