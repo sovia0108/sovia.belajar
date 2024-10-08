@@ -213,14 +213,12 @@
       </div>
 
     </section><!-- /Why Us Section --> --}}
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-<<<<<<< HEAD
+     <!-- Skills Section -->
+     <section id="about" class="skills section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row">
                 <div class="container section-title" data-aos="fade-up">
-                    <h2>Layanan Area kami</h2>
+                    <h2>Tentang Kami</h2>
                 </div><!-- End Section Title -->
                 <div class="container">
                     <div class="row gy-4">
@@ -257,8 +255,9 @@
                 </div>
             </div>
         </div>
-    </section>
-=======
+     </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -281,7 +280,6 @@
 </section>
 
     </section><!-- /Skills Section -->
->>>>>>> 0dc6c2e3ff48b2284cf3cc497c1879c74e40a6ed
 
     <!-- Services Section -->
     <section id="Berita" class="services section light-background">

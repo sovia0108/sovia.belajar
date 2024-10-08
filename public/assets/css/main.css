@@ -2116,4 +2116,28 @@ section,
             font-size: 14px;
             color: #333;
         }
+        .btn-outline-custom {
+          font-size: 20px;
+          border-radius: 15px;
+          color: #002359;;
+          border-color: #002359;
+          
+        }
+        .btn-outline-custom:hover {
+          background-color: #002359;
+          color: #fff;
+        }
+        .custom-carousel {
+          max-width: 610px;
+          max-height: 1080px;
+          width: 100%;
+          margin: 0 auto; /* Center the carousel */
+        }
+        
+        .custom-carousel img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 40px;
+        }
 
