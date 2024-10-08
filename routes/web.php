@@ -23,3 +23,7 @@ Route::get('/beranda', function () {
 Route::get('/sovia-bauk', function () {
     return view('welcome');
 })->name('sovia');
+
+Route::get('/produk_layanan', function () {
+    return view('produk_layanan');
+})->name('produk_layanan');

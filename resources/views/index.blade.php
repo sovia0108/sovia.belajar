@@ -50,7 +50,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Beranda</a></li>
-          <li><a href="#about">Produk & Layanan </a></li>
+          <li><a href="{{route('produk_layanan')}}">Produk & Layanan </a></li>
           <li><a href="#services">Tentang Kami</a></li>
           <li><a href="#portfolio">Mengapa Memilih Kami</a></li>
           <li><a href="{{ Route('beranda')}}">Berita</a></li>
