@@ -288,18 +288,18 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Berita</h2>
         <div class="container">
-        <div class="container">
+
     <div class="row gy-4">
 
         <!-- Anggota Tim Pertama -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member text-center">
                 <div class="why-us-img">
-                    <img src="assets/img/foto.png" class="img-fluid" alt="Pelatihan Character Building" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/img/satu.png" class="img-fluid" alt="Pelatihan Character Building" data-aos="zoom-in" data-aos-delay="100">
                 </div>
                 <div class="member-info">
                     <h4>Pelatihan Character Building di Kantor SWA</h4>
-                    <p>Pelatihan ini bertujuan untuk membangun karakter karyawan dalam meningkatkan kinerja tim.</p>
+                    <p>Pelatihan Character Building di SWA bertujuan membentuk karakter individu yang unik. Karyawan dapat mengembangkan diri, mencapai prestasi, dan menunjukkan semangat yang membanggakan.</p>
                 </div>
             </div>
         </div>
@@ -308,12 +308,11 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member text-center">
                 <div class="why-us-img">
-                    <img src="assets/img/foto.png" class="img-fluid" alt="Sarah Johnson" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/img/dua.png" class="img-fluid" alt="Sarah Johnson" data-aos="zoom-in" data-aos-delay="100">
                 </div>
                 <div class="member-info">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
-                    <p>Mengelola pengembangan produk yang inovatif dan berkelanjutan untuk meningkatkan kualitas.</p>
+                    <h4>SWA Gresik Cup Ajang Bulutangki Bergengsi</h4>
+                    <p>Turnamen Bulu Tangkis SWA Gresik Cup sukses mendukung olahraga usia dini, mempererat silaturahmi, dan mempromosikan brand SWA dengan antusiasme tinggi.</p>
                 </div>
             </div>
         </div>
@@ -322,12 +321,13 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member text-center">
                 <div class="why-us-img">
-                    <img src="assets/img/foto.png" class="img-fluid" alt="William Anderson" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/img/tiga.png" class="img-fluid" alt="William Anderson" data-aos="zoom-in" data-aos-delay="100">
                 </div>
                 <div class="member-info">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
-                    <p>Memimpin inovasi teknologi di perusahaan, memastikan bahwa sistem operasional berjalan lancar.</p>
+                    <h4>Penerimaan Sertifikat ISO 450001 : 
+                      2018 dan 140001 : 2015</h4>
+                    <p>Penerimaan Sertifikat ISO 450001 : 2018 dan 140001 : 2015 yang di peroleh SWA merupakan hasil dari usaha terbaik SWA untuk meningkatkan standar mutu demi kepuasan pelanggan dan penyediaan produk serta layanan yang berkualitas.
+                    </p>
                 </div>
             </div>
         </div>
