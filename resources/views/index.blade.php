@@ -226,13 +226,13 @@
                             <div id="carouselExampleSlidesOnly" class="carousel slide custom-carousel" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/manager.png" class="d-block w-100 img-fluid" alt="Manager">
+                                        <img src="assets/img/manager.jpg" class="d-block w-100 img-fluid" alt="Manager">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/manager1.png" class="d-block w-100 img-fluid" alt="Manager 1">
+                                        <img src="assets/img/manager1.jpg" class="d-block w-100 img-fluid" alt="Manager 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/manager2.png" class="d-block w-100 img-fluid" alt="Manager 2">
+                                        <img src="assets/img/manager2.jpg" class="d-block w-100 img-fluid" alt="Manager 2">
                                     </div>
                                 </div>
                             </div>
@@ -256,28 +256,33 @@
             </div>
         </div>
      </section>
+
     <!-- Skills Section -->
     <section id="skills" class="skills section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row">      
+                    <!-- Title Section -->
+            <div class="container">
+              <div class="section-title" data-aos="fade-up">
+                <h2>Layanan Area kami</h2>
+              </div>
+            </div><!-- End Section Title -->
 
-          
-        <!-- Title Section -->
-<div class="container">
-  <div class="section-title" data-aos="fade-up">
-    <h2>Layanan Area kami</h2>
-    <a href="#" class="text-link">Lihat layanan selengkapnya</a>
-  </div>
-</div><!-- End Section Title -->
-
-<!-- Image Section -->
-<section class="hero-section">
-    <div class="col-lg-12 hero-img full-width" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/peta.png" class="img-fluid animated" alt="Peta">
-    </div>
-</section>
+            <div class="container">
+                <div class="row gy-4">
+                  <div class="col-lg-6 ms-lg-auto mb-4" data-aos="fade-up" data-aos-delay="200" style="text-align: right; font-size : 20px;"> <!-- Added mb-4 class -->
+                    <a href="#" class="read-more" style="color : #26508F; font-weight: 600;">Lihat Layanan Selengkapnya<i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+                <!-- Image Section -->
+                <div class="row">
+                    <div class="col-lg-12 hero-img full-width" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="assets/img/peta.png" class="img-fluid animated" alt="Peta">
+                    </div>
+                </div>
+            </div>
 
     </section><!-- /Skills Section -->
 
