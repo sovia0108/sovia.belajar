@@ -257,11 +257,10 @@
         </div>
      </section>
 
+     {{-- layanan area kami start --}}
     <!-- Skills Section -->
     <section id="skills" class="skills section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row">      
                     <!-- Title Section -->
             <div class="container">
@@ -269,7 +268,6 @@
                 <h2>Layanan Area kami</h2>
               </div>
             </div><!-- End Section Title -->
-
             <div class="container">
                 <div class="row gy-4">
                   <div class="col-lg-6 ms-lg-auto mb-4" data-aos="fade-up" data-aos-delay="200" style="text-align: right; font-size : 20px;"> <!-- Added mb-4 class -->
@@ -283,8 +281,8 @@
                     </div>
                 </div>
             </div>
-
     </section><!-- /Skills Section -->
+    {{-- layanan area kami end --}}
 
     <!-- Services Section -->
     <section id="Berita" class="services section light-background">
