@@ -13,17 +13,38 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+
 Route::get('/', function () {
-    return view('index');
-});
-Route::get('/beranda', function () {
     return view('beranda');
 })->name('beranda');
-
-Route::get('/sovia-bauk', function () {
-    return view('welcome');
-})->name('sovia');
 
 Route::get('/produk_layanan', function () {
     return view('produk_layanan');
 })->name('produk_layanan');
+
+Route::get('/tentang_kami', function () {
+    return view('tentang_kami');
+})->name('tentang_kami');
+
+// Route for the Mengapa Memilih Kami page
+Route::get('/pilih_kami', function () {
+    return view('pilih_kami');
+})->name('pilih_kami');
+
+// Route for the Berita page
+Route::get('/berita', function () {
+    return view('berita');
+})->name('berita');
+
+// Route for the Karir page
+Route::get('/karir', function () {
+    return view('karir');
+})->name('karir');
+
+// Route for the Kontak Kami page
+Route::get('/kontak_kami', function () {
+    return view('kontak_kami');
+})->name('kontak_kami');
