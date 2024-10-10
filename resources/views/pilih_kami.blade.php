@@ -12,7 +12,7 @@
         </div>
         <div class="row text-center">
             <!-- Competence Section -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="icon mb-3">
                     <img src="{{ asset('assets/img/frame 83.png') }}" alt="Competence Icon" style="width: 50px;">
                 </div>
@@ -25,7 +25,7 @@
             </div>
 
             <!-- Integrity Section -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="icon mb-3">
                     <img src="{{ asset('assets/img/frame 85.png') }}" alt="Integrity Icon" style="width: 50px;">
                 </div>
@@ -37,7 +37,7 @@
             </div>
 
             <!-- Excellent Section -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="icon mb-3">
                     <img src="{{ asset('assets/img/frame 86.png') }}" alt="Excellent Icon" style="width: 50px;">
                 </div>
@@ -52,44 +52,35 @@
 
         <!-- Two boxes below with same size as above -->
         <div class="row mt-5 text-center">
-            <!-- First Box with Icon -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="icon mb-3">
                     <img src="{{ asset('assets/img/frame 84.png') }}" alt="Inovasi Icon" style="width: 50px;">
                 </div>
-                <div class="box text-start">
-                    <h4>Inovasi</h4>
-                    <p>
-                        SWA terus berinovasi untuk memenuhi kebutuhan pelanggan dan pasar yang terus berkembang. 
-                        Inovasi menjadi elemen kunci dalam memastikan SWA tetap menjadi yang terbaik dalam industri yang 
-                        semakin kompetitif. Dengan investasi yang berkelanjutan dalam teknologi dan sumber daya manusia, 
-                        SWA berupaya memberikan solusi terbaik.
-                    </p>
-                </div>
+                <h4>Inovasi</h4>
+                <p class="text-start">
+                    SWA terus berinovasi untuk memenuhi kebutuhan pelanggan dan pasar yang terus berkembang. 
+                    Inovasi menjadi elemen kunci dalam memastikan SWA tetap menjadi yang terbaik dalam industri yang 
+                    semakin kompetitif. Dengan investasi yang berkelanjutan dalam teknologi dan sumber daya manusia, 
+                    SWA berupaya memberikan solusi terbaik.
+                </p>
             </div>
-
-            <!-- Second Box with image on the right -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="box text-start d-flex align-items-start">
-                    <div class="icon mb-3">
-                        <img src="{{ asset('assets/img/frame 87.png') }}" alt="Keberlanjutan Icon" style="width: 50px;">
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4>Keberlanjutan</h4>
-                        <p>
-                            Keberlanjutan adalah bagian dari komitmen SWA dalam menjaga lingkungan dan memberikan dampak positif 
-                            kepada masyarakat. Melalui program tanggung jawab sosial perusahaan, SWA berkontribusi dalam menciptakan 
-                            lingkungan yang lebih baik untuk generasi masa depan.
-                        </p>
-                    </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="icon mb-3">
+                    <img src="{{ asset('assets/img/frame 87.png') }}" alt="Keberlanjutan Icon" style="width: 50px;">
                 </div>
+                <h4>Keberlanjutan</h4>
+                <p class="text-start">
+                    Keberlanjutan adalah bagian dari komitmen SWA dalam menjaga lingkungan dan memberikan dampak positif 
+                    kepada masyarakat. Melalui program tanggung jawab sosial perusahaan, SWA berkontribusi dalam menciptakan 
+                    lingkungan yang lebih baik untuk generasi masa depan.
+                </p>
+            </div>
+            <!-- Add a third empty column for alignment -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="text-center">
                     <img src="{{ asset('assets/img/orang.png') }}" class="img-fluid" alt="Keberlanjutan" style="width: 250px;">
                 </div>
             </div>
-
-            <!-- Add a third empty column for alignment -->
-            <div class="col-lg-4 col-md-6 mb-4"></div>
         </div>
     </div>
 </section>
