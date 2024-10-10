@@ -170,7 +170,7 @@
             <div class="container">
                 <div class="row gy-4">
                   <div class="col-lg-6 ms-lg-auto mb-4" data-aos="fade-up" data-aos-delay="200" style="text-align: right; font-size : 20px;"> <!-- Added mb-4 class -->
-                    <a href="#" class="read-more" style="color : #26508F; font-weight: 600;">Lihat Layanan Selengkapnya<i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('klien_kami') }}" class="read-more" style="color : #26508F; font-weight: 600;">Lihat Layanan Selengkapnya<i class="bi bi-arrow-right"></i></a>
                   </div>
                 </div>
                 <!-- Image Section -->

@@ -48,3 +48,8 @@ Route::get('/karir', function () {
 Route::get('/kontak_kami', function () {
     return view('kontak_kami');
 })->name('kontak_kami');
+
+// Route for the Kontak Kami page
+Route::get('/beranda/klien_kami', function () {
+    return view('klien_kami');
+})->name('klien_kami');
