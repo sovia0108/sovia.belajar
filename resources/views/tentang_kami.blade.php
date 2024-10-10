@@ -2,9 +2,10 @@
 @section('name', 'Tentang Kami')
 
 @section('content')
-<section class="vision-mission-section background-pattern">
+<!-- Section: Visi dan Misi -->
+<section class="vision-mission-section background-pattern py-5">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title text-center mb-4">
             <h2>Tentang Kami</h2>
         </div>
         <div class="row">
@@ -27,9 +28,10 @@
     </div>
 </section>
 
-<section class="timeline-section background-light mt-5">
+<!-- Section: Timeline/Jejak Langkah -->
+<section class="timeline-section background-light py-5">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center mb-5">
             <h2>Jejak Langkah</h2>
         </div>
         <div class="row justify-content-center">
@@ -77,42 +79,42 @@
     </div>
 </section>
 
-<section class="certificates-section mt-5">
+<!-- Section: Sertifikat dan Penghargaan -->
+<section class="certificates-section py-5">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center mb-4">
             <h2>Sertifikat dan Penghargaan</h2>
             <p>Kepercayaan pelanggan adalah prioritas utama SWA. Untuk itu, SWA menjaga kualitas produk dan layanan, yang telah diakui dengan berbagai penghargaan. Kedepannya, SWA akan terus berinovasi dan menjaga mutu untuk meningkatkan kualitas produk dan layanan.</p>
         </div>
-        
+
         <!-- Carousel Start -->
         <div id="certificatesCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Item 1 -->
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                        <div class="col-md-4">
-                            <img src="{{asset('assets/img/image 22.png')}}" class="d-block w-100" alt="Certificate 1">
+                        <div class="col-md-4 mb-3">
+                            <img src="{{ asset('assets/img/image 22.png') }}" class="d-block w-100" alt="Certificate 1">
                         </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('assets/img/image 23.png')}}" class="d-block w-100" alt="Certificate 2">
+                        <div class="col-md-4 mb-3">
+                            <img src="{{ asset('assets/img/image 23.png') }}" class="d-block w-100" alt="Certificate 2">
                         </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('assets/img/image 24.png')}}" class="d-block w-100" alt="Certificate 3">
+                        <div class="col-md-4 mb-3">
+                            <img src="{{ asset('assets/img/image 24.png') }}" class="d-block w-100" alt="Certificate 3">
                         </div>
                     </div>
                 </div>
-                
                 <!-- Item 2 -->
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <div class="col-md-4">
-                            <img src="{{asset('assets/img/image 22.png')}}" class="d-block w-100" alt="Certificate 4">
+                        <div class="col-md-4 mb-3">
+                            <img src="{{ asset('assets/img/image 22.png') }}" class="d-block w-100" alt="Certificate 4">
                         </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('assets/img/image 23.png')}}" class="d-block w-100" alt="Certificate 5">
+                        <div class="col-md-4 mb-3">
+                            <img src="{{ asset('assets/img/image 23.png') }}" class="d-block w-100" alt="Certificate 5">
                         </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('assets/img/image 24.png')}}" class="d-block w-100" alt="Certificate 6">
+                        <div class="col-md-4 mb-3">
+                            <img src="{{ asset('assets/img/image 24.png') }}" class="d-block w-100" alt="Certificate 6">
                         </div>
                     </div>
                 </div>
