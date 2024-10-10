@@ -28,10 +28,12 @@
     <!-- Row 1 -->
     <div class="row">
         <!-- Card 1 -->
-        <div class="col-md-4 mb-4">
+               <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="{{ asset('assets/img/image.png') }}" class="card-img-top" alt="Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban">
-                <div class="card-body">
+                <div class="position-relative">
+                    <img src="{{ asset('assets/img/image.png') }}" class="card-img-top custom-shadow" alt="Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban">
+                </div>
+                <div class="card-body position-relative" style="z-index: 2;">
                     <h5 class="card-title">Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban</h5>
                     <p class="card-text">SWA mengadakan pelatihan evaluasi dan kalibrasi kinerja di PJ Tuban untuk mengevaluasi kinerja karyawan serta memahami cara penilaian kinerja, sebagai bagian dari komitmen untuk menjamin kepuasan pelanggan.</p>
                 </div>
