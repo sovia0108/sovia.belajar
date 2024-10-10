@@ -14,7 +14,7 @@
             <!-- Competence Section -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="icon mb-3">
-                    <img src="path/to/competence-icon.png" alt="Competence Icon" style="width: 50px;">
+                    <img src="{{ asset('assets/img/frame 83.png') }}" alt="Competence Icon" style="width: 50px;">
                 </div>
                 <h4>Competence</h4>
                 <p class="text-start">
@@ -27,7 +27,7 @@
             <!-- Integrity Section -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="icon mb-3">
-                    <img src="path/to/integrity-icon.png" alt="Integrity Icon" style="width: 50px;">
+                    <img src="{{ asset('assets/img/frame 85.png') }}" alt="Integrity Icon" style="width: 50px;">
                 </div>
                 <h4>Integrity</h4>
                 <p class="text-start">
@@ -39,7 +39,7 @@
             <!-- Excellent Section -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="icon mb-3">
-                    <img src="path/to/excellent-icon.png" alt="Excellent Icon" style="width: 50px;">
+                    <img src="{{ asset('assets/img/frame 86.png') }}" alt="Excellent Icon" style="width: 50px;">
                 </div>
                 <h4>Excellent</h4>
                 <p class="text-start">
@@ -52,8 +52,11 @@
 
         <!-- Two boxes below with same size as above -->
         <div class="row mt-5 text-center">
-            <!-- First Box -->
+            <!-- First Box with Icon -->
             <div class="col-lg-4 col-md-6 mb-4">
+                <div class="icon mb-3">
+                    <img src="{{ asset('assets/img/frame 84.png') }}" alt="Inovasi Icon" style="width: 50px;">
+                </div>
                 <div class="box text-start">
                     <h4>Inovasi</h4>
                     <p>
@@ -67,8 +70,11 @@
 
             <!-- Second Box with image on the right -->
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="d-flex align-items-center justify-content-between box">
-                    <div class="text-start flex-grow-1">
+                <div class="box text-start d-flex align-items-start">
+                    <div class="icon mb-3">
+                        <img src="{{ asset('assets/img/frame 87.png') }}" alt="Keberlanjutan Icon" style="width: 50px;">
+                    </div>
+                    <div class="flex-grow-1">
                         <h4>Keberlanjutan</h4>
                         <p>
                             Keberlanjutan adalah bagian dari komitmen SWA dalam menjaga lingkungan dan memberikan dampak positif 
@@ -76,9 +82,9 @@
                             lingkungan yang lebih baik untuk generasi masa depan.
                         </p>
                     </div>
-                    <div class="ml-auto">
-                        <img src="{{asset('assets/img/orang.png')}}" class="img-fluid" alt="Keberlanjutan" style="width: 250px;">
-                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="{{ asset('assets/img/orang.png') }}" class="img-fluid" alt="Keberlanjutan" style="width: 250px;">
                 </div>
             </div>
 

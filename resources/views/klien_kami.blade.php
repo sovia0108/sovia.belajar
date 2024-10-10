@@ -74,7 +74,7 @@
     document.addEventListener('DOMContentLoaded', function() {
         const imageGrid = document.getElementById('image-grid');
         const images = {
-            'industri-semen': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'industri-semen': ['semen indonesia.png', 'semen1.png', 'semen2.png', 'semen3.png', 'semen4.png' , 'semen5.png'],
             'logistik': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
             'keuangan': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
             'packaging': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
