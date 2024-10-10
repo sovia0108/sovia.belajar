@@ -14,7 +14,7 @@
                     <img src="path/to/competence-icon.png" alt="Competence Icon" style="width: 50px;">
                 </div>
                 <h4>Competence</h4>
-                <p class="text-justify-custom">
+                <p class="text-start">
                     SWA memperkuat kompetensi dan keunggulan karyawan untuk bersaing di era kompetitif. Setiap karyawan harus memahami 5 Kompetensi Dasar: 
                     religius dan nasionalis, budaya SWA, K3, 5R, serta Service Excellent. 
                     SWA meningkatkan kualitas melalui sertifikasi untuk memperkuat kepercayaan pelanggan.
@@ -27,7 +27,7 @@
                     <img src="path/to/integrity-icon.png" alt="Integrity Icon" style="width: 50px;">
                 </div>
                 <h4>Integrity</h4>
-                <p class="text-justify-custom">
+                <p class="text-start">
                     SWA selalu memiliki keteguhan dalam menjunjung tinggi nilai-nilai integritas dan telah menjadi budaya kerja sehari-hari. 
                     Dengan integritas, SWA secara konsisten mampu menjaga kredibilitas Perusahaan melalui pelayanan prima yang terpercaya.
                 </p>
@@ -39,7 +39,7 @@
                     <img src="path/to/excellent-icon.png" alt="Excellent Icon" style="width: 50px;">
                 </div>
                 <h4>Excellent</h4>
-                <p class="text-justify-custom">
+                <p class="text-start">
                     Menjaga produk dan layanan berada pada kualitas yang excellent adalah prioritas utama bagi SWA. 
                     Melalui pengawasan mutu yang dilakukan secara berkala, SWA memastikan Pelanggan mendapatkan produk dan layanan terbaik 
                     melebihi ekspektasi mereka.
@@ -51,7 +51,7 @@
         <div class="row mt-5 text-center">
             <!-- First Box -->
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="box text-justify-custom">
+                <div class="box text-start">
                     <h4>Inovasi</h4>
                     <p>
                         SWA terus berinovasi untuk memenuhi kebutuhan pelanggan dan pasar yang terus berkembang. 
@@ -64,8 +64,8 @@
 
             <!-- Second Box with image on the right -->
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="d-flex align-items-center box" style="margin-left: 15px;">
-                    <div class="text-justify-custom flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between box">
+                    <div class="text-start flex-grow-1">
                         <h4>Keberlanjutan</h4>
                         <p>
                             Keberlanjutan adalah bagian dari komitmen SWA dalam menjaga lingkungan dan memberikan dampak positif 
@@ -73,8 +73,8 @@
                             lingkungan yang lebih baik untuk generasi masa depan.
                         </p>
                     </div>
-                    <div class="ml-auto" style="margin-left: 30px;">
-                        <img src="{{asset('assets/img/orang.png')}}" alt="Keberlanjutan" style="width: 300px; height: 300px;">
+                    <div class="ml-auto">
+                        <img src="{{asset('assets/img/orang.png')}}" class="img-fluid" alt="Keberlanjutan" style="width: 250px;">
                     </div>
                 </div>
             </div>
@@ -84,7 +84,4 @@
         </div>
     </div>
 </section>
-
-
-
 @endsection
