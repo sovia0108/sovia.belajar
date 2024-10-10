@@ -3,8 +3,7 @@
 
       <a href="index.html" class="logo d-flex align-items-start me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/swa.png" alt="" class="me-6"> <!-- Add margin-end to separate the image from the text -->
-        <div class="d-flex flex-column">
+        <img src="{{ asset('assets/img/swa.png') }}" alt="" class="me-6"><div class="d-flex flex-column">
             <p class="mb-1">Kantor Pusat & Pabrik AMDK</p>
             <p class="mb-1">Jl. R.A. Kartini No.21 A Gresik 61122</p>
             <p class="mb-1">Jawa Timur</p>
