@@ -2,6 +2,9 @@
 @section('name', 'Karir')
 
 @section('content')
+<br>
+<br>
+<br>
 <div class="container my-5">
     <!-- Hero Section -->
     <div class="section-title text-center">

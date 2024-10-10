@@ -2,9 +2,12 @@
 @section('name', 'Berita')
 
 @section('content')
+<br>
+<br>
+<br>
 <section class="news-section text-center">
     <div class="container">
-        <h2 class="mb-5" style="color: #0056b3;">Berita</h2>
+        <h2 class="mb-5" style="color: #0056b3;">BERITA</h2>
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="news-card position-relative">

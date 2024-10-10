@@ -26,23 +26,23 @@
                     Cari Kategori...
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="max-height: 200px; overflow-y: auto;">
-                    <li><a class="dropdown-item" href="#">Industri Semen</a></li>
-                    <li><a class="dropdown-item" href="#">Logistik, Transportasi & Distribusi</a></li>
-                    <li><a class="dropdown-item" href="#">Keuangan & Perbankan</a></li>
-                    <li><a class="dropdown-item" href="#">Packaging Industries</a></li>
-                    <li><a class="dropdown-item" href="#">Kesehatan</a></li>
-                    <li><a class="dropdown-item" href="#">Industrial</a></li>
-                    <li><a class="dropdown-item" href="#">Consumer Goods</a></li>
-                    <li><a class="dropdown-item" href="#">Energy</a></li>
-                    <li><a class="dropdown-item" href="#">Pertambangan</a></li>
-                    <li><a class="dropdown-item" href="#">Retail</a></li>
-                    <li><a class="dropdown-item" href="#">Fabrikasi</a></li>
-                    <li><a class="dropdown-item" href="#">Informasi Teknologi & Komunikasi</a></li>
-                    <li><a class="dropdown-item" href="#">Developer</a></li>
-                    <li><a class="dropdown-item" href="#">University</a></li>
-                    <li><a class="dropdown-item" href="#">Dealer</a></li>
-                    <li><a class="dropdown-item" href="#">Oil & Gas</a></li>
-                    <li><a class="dropdown-item" href="#">Lain Lain</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="industri-semen">Industri Semen</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="logistik">Logistik, Transportasi & Distribusi</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="keuangan">Keuangan & Perbankan</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="packaging">Packaging Industries</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="kesehatan">Kesehatan</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="industrial">Industrial</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="consumer-goods">Consumer Goods</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="energy">Energy</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="pertambangan">Pertambangan</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="retail">Retail</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="fabrikasi">Fabrikasi</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="it-komunikasi">Informasi Teknologi & Komunikasi</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="developer">Developer</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="university">University</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="dealer">Dealer</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="oil-gas">Oil & Gas</a></li>
+                    <li><a class="dropdown-item" href="#" data-category="lain-lain">Lain Lain</a></li>
                 </ul>
             </div>
         </div>
@@ -57,9 +57,61 @@
             </div>
         </div>
     </div>
+
+    <!-- Image Grid -->
+    <div class="row mt-5 justify-content-center mb-5"> <!-- Added mb-5 class for bottom margin -->
+        <div class="col-12">
+            <div class="box bg-light p-4">
+                <div class="row d-flex justify-content-center" id="image-grid">
+                    <!-- Images will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const imageGrid = document.getElementById('image-grid');
+        const images = {
+            'industri-semen': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'logistik': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'keuangan': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'packaging': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'kesehatan': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'industrial': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'consumer-goods': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'energy': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'pertambangan': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'retail': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'fabrikasi': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'it-komunikasi': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'developer': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'university': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'dealer': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'oil-gas': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'lain-lain': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png']
+        };
 
+        document.querySelectorAll('.dropdown-item').forEach(item => {
+            item.addEventListener('click', function(event) {
+                event.preventDefault();
+                const category = this.getAttribute('data-category');
+                const categoryImages = images[category] || [];
+                imageGrid.innerHTML = '';
 
-
+                categoryImages.forEach(image => {
+                    const col = document.createElement('div');
+                    col.className = 'col-md-2 mb-3';
+                    const img = document.createElement('img');
+                    img.src = `{{ asset('assets/img/${image}') }}`;
+                    img.className = 'img-fluid';
+                    img.alt = category;
+                    col.appendChild(img);
+                    imageGrid.appendChild(col);
+                });
+            });
+        });
+    });
+</script>
 @endsection
