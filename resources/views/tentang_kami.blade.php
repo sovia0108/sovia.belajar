@@ -2,6 +2,9 @@
 @section('name', 'Tentang Kami')
 
 @section('content')
+<br>
+<br>
+<br>
 <!-- Section: Visi dan Misi -->
 <section class="vision-mission-section background-pattern py-5">
     <div class="container">

@@ -2,7 +2,10 @@
 @section('name', 'Mengapa Memilih Kami')
 
 @section('content')
-<section class="why-choose-us mt-5">
+<br>
+<br>
+<br>
+<section class="why-choose-us">
     <div class="container">
         <div class="section-title text-center">
             <h2>Mengapa Memilih Kami</h2>

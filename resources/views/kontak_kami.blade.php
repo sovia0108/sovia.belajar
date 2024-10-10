@@ -2,6 +2,9 @@
 @section('name', 'Kontak Kami')
 
 @section('content')
+<br>
+<br>
+<br>
 <div class="container my-5">
     <!-- Title Section -->
     <div class="text-center">
@@ -52,8 +55,12 @@
         </div>
 
         <!-- Button Section -->
-        <div class="text-center">
-            <button type="submit" class="btn btn-primary">Kirim</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </div>
+            </div>
         </div>
     </form>
 </div>
