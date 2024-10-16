@@ -5,7 +5,8 @@
 <br>
 <br>
 <br>
-<div class="container my-5">
+<div class="container my-5" style="margin-top: 70px; margin-bottom: 70px;">
+
     <!-- Title Section -->
     <div class="text-center">
         <h1 class="fw-bold">Hubungi Kami</h1>
@@ -13,7 +14,8 @@
     </div>
 
     <!-- Subtitle Section -->
-    <div class="text-center mb-4">
+    <div class="container my-5" style="margin-top: 70px; margin-bottom: 70px;">
+
         <h4 class="fw-bold">Bagaimana Kami Menghubungi Anda?</h4>
     </div>
 

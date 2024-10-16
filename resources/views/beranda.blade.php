@@ -10,15 +10,15 @@
     <section id="hero" class="hero section dark-background">
 
       <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-6 order-1 order-lg-1 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-          </div>
-          <div class="col-lg-6 order-2 order-lg-2 d-flex flex-column justify-content-center" data-aos="zoom-out">
+    <div class="row gy-4">
+        <!-- Gambar di sebelah kiri -->
+        <div class="col-lg-6 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="{{ asset('assets/img/ft.png') }}" class="img-fluid animated" alt="PT Swabina Gatra">
+        </div>
+        <!-- Teks di sebelah kanan -->
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1>PT Swabina Gatra</h1>
-            <p>Menjadi perusahaan yang dapat tumbuh
-              dan berkembang dengan sehat dan selalu
-              unggul di bidangnya </p>
+            <p>Menjadi perusahaan yang dapat tumbuh dan berkembang dengan sehat dan selalu unggul di bidangnya</p>
             <div class="d-flex">
                 <a href="#about" class="btn btn-outline-light btn-custom-radius">
                     <i class="bi bi-whatsapp"></i> Hubungi Kami
