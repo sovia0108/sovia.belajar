@@ -834,6 +834,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
+  background-color: #ffffff;
   width: 100%;
   min-height: 80vh;
   position: relative;
@@ -847,10 +848,11 @@ section,
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
+  color: #3077BC;
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #3077BC;
   margin: 5px 0 30px 0;
   font-size: 22px;
   line-height: 1.3;
@@ -2178,5 +2180,9 @@ section,
         filter: blur(10px); /* Adjust the blur as needed */
         z-index: 1;
     }
+    .btn-outline-light.btn-custom-radius {
+      border-color: #3077BC;
+      color: #3077BC;
+  }
         
 

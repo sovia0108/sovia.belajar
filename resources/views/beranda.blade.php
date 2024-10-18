@@ -20,8 +20,8 @@
               dan berkembang dengan sehat dan selalu
               unggul di bidangnya </p>
             <div class="d-flex">
-                <a href="#about" class="btn btn-outline-light btn-custom-radius">
-                    <i class="bi bi-whatsapp"></i> Hubungi Kami
+                <a href="#about" class="btn btn-outline-light btn-custom-radius" style="color:#3077BC">
+                    <i class="bi bi-whatsapp"  style="color: #3077BC;"></i> Hubungi Kami
                 </a>
             </div>
           </div>
