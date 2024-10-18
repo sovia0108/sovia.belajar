@@ -84,4 +84,59 @@
         </div>
     </div>
 </section>
+<div class="container mt-5">
+    <h2 class="text-center">Budaya PT Swabina Gatra</h2>
+    <p class="text-center">Pancagatra merupakan lima kompetisi dasar karyawan Swabina Gatra yang harus diketahui dan dilaksanakan</p>
+
+    <!-- Carousel -->
+    <div id="cultureCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- First slide -->
+        <div class="carousel-item active">
+          <img src="{{ asset('assets/img/image 15.png') }}" class="d-block w-100" alt="First Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+        <!-- Second slide -->
+        <div class="carousel-item">
+          <img src="{{ asset('assets/img/image 37.png') }}" class="d-block w-100" alt="Second Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{{ asset('assets/img/image 38.png') }}" class="d-block w-100" alt="Second Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{{ asset('assets/img/image 39.png') }}" class="d-block w-100" alt="Second Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{{ asset('assets/img/image 40.png') }}" class="d-block w-100" alt="Second Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+        <!-- Add more slides as needed -->
+
+      </div>
+
+      <!-- Carousel controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#cultureCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cultureCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      
+      </div>
+    </div>
+  </div>
+
 @endsection

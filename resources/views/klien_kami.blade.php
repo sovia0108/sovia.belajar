@@ -17,6 +17,7 @@
         </div>
     </div>
 </div>
+
 <div class="container mt-5 container-custom">
     <div class="row justify-content-between">
         <!-- Dropdown Kategori -->
@@ -74,8 +75,8 @@
     document.addEventListener('DOMContentLoaded', function() {
         const imageGrid = document.getElementById('image-grid');
         const images = {
-            'industri-semen': ['semen indonesia.png', 'semen1.png', 'semen2.png', 'semen3.png', 'semen4.png' , 'semen5.png'],
-            'logistik': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
+            'industri-semen': ['semen_indonesia.png', 'semen1.png', 'semen2.png', 'semen3.png', 'semen4.png', 'semen5.png'],
+            'logistik': ['logistik1.png', 'logistik2.png', 'logistik3.png', 'logistik4.png', 'logistik5.png', 'logistik6.png'],
             'keuangan': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
             'packaging': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
             'kesehatan': ['swa.png', 'swa.png', 'swa.png', 'swa.png', 'swa.png'],
@@ -98,7 +99,7 @@
                 event.preventDefault();
                 const category = this.getAttribute('data-category');
                 const categoryImages = images[category] || [];
-                imageGrid.innerHTML = '';
+                imageGrid.innerHTML = ''; // Clear current images
 
                 categoryImages.forEach(image => {
                     const col = document.createElement('div');
