@@ -6,7 +6,7 @@
 <br>
 <br>
 <!-- Section: Visi dan Misi -->
-<section class="vision-mission-section background-pattern py-5">
+<section class="vision-mission-section background-pattern py-5"> 
     <div class="container">
         <div class="section-title text-center mb-4">
             <h2>Tentang Kami</h2>
