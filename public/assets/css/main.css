@@ -81,12 +81,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
-
+h5{
+  color: #ffffff;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -517,7 +518,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: #26508F;
+  background-color: #3077BC;
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
