@@ -12,21 +12,23 @@
             <h2>Tentang Kami</h2>
         </div>
         <div class="row">
-            <!-- Visi -->
-            <div class="col-12">
-                <h3>Visi</h3>
-                <p>Menjadi Perusahaan yang dapat tumbuh dan berkembang dengan sehat dan selalu unggul dibidangnya.</p>
-            </div>
-            <!-- Misi -->
-            <div class="col-12 mt-4">
-                <h3>Misi</h3>
-                <ul class="list-unstyled mission-list">
-                    <li><i class="bi bi-check-circle-fill"></i> Meningkatkan dan mengembangkan bidang usaha utama (Core Business).</li>
-                    <li><i class="bi bi-check-circle-fill"></i> Meningkatkan dan mengembangkan bidang usaha penunjang sebagai usaha untuk mendukung pendapatan dari kegiatan bidang usaha utama.</li>
-                    <li><i class="bi bi-check-circle-fill"></i> Meningkatkan kualitas pengelolaan sumber daya manusia yang berdaya saing tinggi guna mendukung penyediaan tenaga kerja yang profesional.</li>
-                    <li><i class="bi bi-check-circle-fill"></i> Menghasilkan laba yang wajar dan memberikan dividen yang memuaskan bagi Pemegang Saham.</li>
-                </ul>
-            </div>
+    <!-- Visi -->
+    <div class="col-12">
+        <h3>Visi</h3>
+        <p>Menjadi Perusahaan yang dapat tumbuh dan berkembang dengan sehat dan selalu unggul dibidangnya.</p>
+    </div>
+    <!-- Misi -->
+    <div class="col-12 mt-5">
+    <h3>Misi</h3>
+    <ul class="list-unstyled mission-list mb-5" style="line-height: 2.5;">
+        <li><i class="bi bi-check-circle-fill"></i> Meningkatkan dan mengembangkan bidang usaha utama (Core Business).</li>
+        <li><i class="bi bi-check-circle-fill"></i> Meningkatkan dan mengembangkan bidang usaha penunjang sebagai usaha untuk mendukung pendapatan dari kegiatan bidang usaha utama.</li>
+        <li><i class="bi bi-check-circle-fill"></i> Meningkatkan kualitas pengelolaan sumber daya manusia yang berdaya saing tinggi guna mendukung penyediaan tenaga kerja yang profesional.</li>
+        <li><i class="bi bi-check-circle-fill"></i> Menghasilkan laba yang wajar dan memberikan dividen yang memuaskan bagi Pemegang Saham.</li>
+    </ul>
+</div>
+
+
         </div>
     </div>
 </section>
@@ -136,5 +138,12 @@
         <!-- Carousel End -->
     </div>
 </section>
+
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
 @endsection

@@ -3,75 +3,112 @@
 
 @section('content')
 
-  <main class="main">
+<main class="main">
 
-    {{-- header start --}}
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <div class="container">
-    <div class="row gy-4">
-        <!-- Gambar di sebelah kiri -->
-        <div class="col-lg-6 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="{{ asset('assets/img/ft.png') }}" class="img-fluid animated" alt="PT Swabina Gatra">
-        </div>
-        <!-- Teks di sebelah kanan -->
-        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h1>PT Swabina Gatra</h1>
-            <p>Menjadi perusahaan yang dapat tumbuh dan berkembang dengan sehat dan selalu unggul di bidangnya</p>
-            <div class="d-flex">
-                <a href="#about" class="btn btn-outline-light btn-custom-radius" style="color:#3077BC">
-                    <i class="bi bi-whatsapp"  style="color: #3077BC;"></i> Hubungi Kami
-                </a>
-            </div>
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
+  <div class="container">
+      <div class="row gy-4">
+          <!-- Gambar di sebelah kiri -->
+          <div class="col-lg-6 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+              <img src="{{ asset('assets/img/ft.png') }}" class="img-fluid animated" alt="PT Swabina Gatra">
           </div>
-        </div>
+          <!-- Teks di sebelah kanan -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out">
+              <h1>PT Swabina Gatra</h1>
+              <p>Menjadi perusahaan yang dapat tumbuh dan berkembang dengan sehat dan selalu unggul di bidangnya</p>
+              <div class="d-flex">
+                  <a href="#about" class="btn btn-outline-light btn-custom-radius" style="color:#3077BC">
+                      <i class="bi bi-whatsapp" style="color: #3077BC;"></i> Hubungi Kami
+                  </a>
+              </div>
+          </div>
       </div>
+  </div>
+</section><!-- /Hero Section -->
 
-    </section><!-- /Hero Section -->
-    {{-- header end --}}
- 
-    {{-- produk & layanan start --}}
-    <section id="about" class="about section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Produk & Layanan</h2>
-        </div><!-- End Section Title -->
+<!-- Produk & Layanan Section -->
+<section id="about" class="about section mt-5">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up" style="margin-top: 60px;">
+        <h2>Produk & Layanan</h2>
+    </div>
+    
+    <div class="container">
+        <!-- Carousel Start -->
         <div class="container">
+    <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;">
+                            <div class="icon mb-3">
+                                <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" class="img-fluid" style="max-width: 100%; height: auto;">
+                            </div>
+                            <h4 class="text-center">SWA Facility Management</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;">
+                            <div class="icon mb-3">
+                                <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" class="img-fluid" style="max-width: 100%; height: auto;">
+                            </div>
+                            <h4>SWA Digital Solution</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;">
+                            <div class="icon mb-3">
+                                <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" class="img-fluid" style="max-width: 100%; height: auto;">
+                            </div>
+                            <h4>SWA Segar</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-          <div class="row gy-4"> </div>
-          <!-- New Service Boxes Section -->
-          <div class="row">
-            <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <div class="row">
-                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
-                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                                  <div class="icon mb-3">
-                                      <img src="{{ asset('assets/img/facility.png') }}" alt="Facility" class="img-fluid" style="max-width: 100%; height: auto;">
-                                  </div>
-                                  <h4 class="text-center">SWA Facility Management</h4>
-                              </div>
-                          </div>
-                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
-                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                                  <div class="icon mb-3">
-                                      <img src="{{ asset('assets/img/digital.png') }}" alt="Digital" class="img-fluid" style="max-width: 100%; height: auto;">
-                                  </div>
-                                  <h4>SWA Digital Solution</h4>
-                              </div>
-                          </div>
-                          <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
-                              <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;"> <!-- Set fixed height -->
-                                  <div class="icon mb-3">
-                                      <img src="{{ asset('assets/img/swasegar.png') }}" alt="Swasegar" class="img-fluid" style="max-width: 100%; height: auto;">
-                                  </div>
-                                  <h4>SWA Segar</h4>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;">
+                            <div class="icon mb-3">
+                                <img src="{{ asset('assets/img/academy.png') }}" alt="Academy" class="img-fluid" style="max-width: 100%; height: auto;">
+                            </div>
+                            <h4>SWA Academy</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
+                        <div class="service-box py-5 px-4 border rounded custom-service-box d-flex flex-column align-items-center justify-content-center" style="width: 100%; height: 385px;">
+                            <div class="icon mb-3">
+                                <img src="{{ asset('assets/img/tour.png') }}" alt="Tour" class="img-fluid" style="max-width: 100%; height: auto;">
+                            </div>
+                            <h4>SWA Tour & Travel</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+    </div>
+</section><!-- /Produk & Layanan Section -->
+
+</main>
+
                   <div class="carousel-item">
                       <div class="row">
                           <div class="col-12 col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
@@ -114,7 +151,7 @@
 
      <!-- Skills Section -->
      <section id="about" class="skills section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
             <div class="row">
                 <div class="container section-title" data-aos="fade-up">
                     <h2>Tentang Kami</h2>
@@ -125,13 +162,13 @@
                             <div id="carouselExampleSlidesOnly" class="carousel slide custom-carousel" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/manager.jpg" class="d-block w-100 img-fluid" alt="Manager">
+                                        <img src="assets/img/manager.jpg" class="d-block w-200 img-fluid" alt="Manager">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/manager1.jpg" class="d-block w-100 img-fluid" alt="Manager 1">
+                                        <img src="assets/img/manager1.jpg" class="d-block w-200 img-fluid" alt="Manager 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/manager2.jpg" class="d-block w-100 img-fluid" alt="Manager 2">
+                                        <img src="assets/img/manager2.jpg" class="d-block w-200 img-fluid" alt="Manager 2">
                                     </div>
                                 </div>
                             </div>

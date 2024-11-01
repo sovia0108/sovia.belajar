@@ -109,12 +109,13 @@
     <div class="ratio ratio-16x9">
         <iframe 
             src="https://maps.google.com/maps?q=pt+swabina+gatra&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-            width="600" 
-            height="450" 
+            width="100%" 
+            height="100%" 
             style="border:0;" 
-            allowfullscreen="" 
+            allowfullscreen 
             loading="lazy">
         </iframe>
     </div>
 </div>
+
 @endsection

@@ -34,30 +34,32 @@
                     <img src="{{ asset('assets/img/image.png') }}" class="card-img-top custom-shadow" alt="Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban">
                 </div>
                 <div class="card-body position-relative" style="z-index: 2;">
-                    <h5 class="card-title">Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban</h5>
-                    <p class="card-text">SWA mengadakan pelatihan evaluasi dan kalibrasi kinerja di PJ Tuban untuk mengevaluasi kinerja karyawan serta memahami cara penilaian kinerja, sebagai bagian dari komitmen untuk menjamin kepuasan pelanggan.</p>
-                </div>
+    <h5 class="card-title">Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban</h5>
+    <p class="card-text" style="text-align: justify;">SWA mengadakan pelatihan evaluasi dan kalibrasi kinerja di PJ Tuban untuk mengevaluasi kinerja karyawan serta memahami cara penilaian kinerja, sebagai bagian dari komitmen untuk menjamin kepuasan pelanggan.</p>
+</div>
+
             </div>
         </div>
 
         <!-- Card 2 -->
         <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="{{ asset('assets/img/image2.png') }}" class="card-img-top" alt="Kegiatan Penilaian 5 R SWA">
-                <div class="card-body">
-                    <h5 class="card-title">Kegiatan Penilaian 5 R SWA</h5>
-                    <p class="card-text">SWA melaksanakan penilaian 5R dengan metode penataan dan pemeliharaan wilayah kerja guna menjaga ketertiban, efisiensi, disiplin, serta meningkatkan kinerja perusahaan secara keseluruhan.</p>
-                </div>
-            </div>
+    <div class="card">
+        <img src="{{ asset('assets/img/image2.png') }}" class="card-img-top" alt="Kegiatan Penilaian 5 R SWA">
+        <div class="card-body position-relative" style="z-index: 2;">
+            <h5 class="card-title">Kegiatan Penilaian 5 R SWA</h5>
+            <p class="card-text" style="text-align: justify;">SWA melaksanakan penilaian 5R dengan metode penataan dan pemeliharaan wilayah kerja guna menjaga ketertiban, efisiensi, disiplin, serta meningkatkan kinerja perusahaan secara keseluruhan.</p>
         </div>
+    </div>
+</div>
+
 
         <!-- Card 3 -->
         <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="{{ asset('assets/img/image3.png') }}" class="card-img-top" alt="Kegiatan Keagamaan Rutin SWA">
-                <div class="card-body">
+                <div class="card-body position-relative" style="z-index: 2;">
                     <h5 class="card-title">Kegiatan Keagamaan Rutin SWA</h5>
-                    <p class="card-text">SWA mengadakan kegiatan keagamaan sebagai ladang ibadah, diikuti karyawan muslim dan non-muslim, dengan menjalankan ibadah sesuai kepercayaan masing-masing, selain dari kegiatan bekerja.</p>
+                    <p class="card-text"style="text-align: justify;">SWA mengadakan kegiatan keagamaan sebagai ladang ibadah, diikuti karyawan muslim dan non-muslim, dengan menjalankan ibadah sesuai kepercayaan masing-masing, selain dari kegiatan bekerja.</p>
                 </div>
             </div>
         </div>
