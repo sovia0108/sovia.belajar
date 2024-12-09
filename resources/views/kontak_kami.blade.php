@@ -2,22 +2,17 @@
 @section('name', 'Kontak Kami')
 
 @section('content')
-<br>
-<br>
-<br>
+<br><br><br>
 <div class="container my-5" style="margin-top: 70px; margin-bottom: 70px;">
 
     <!-- Title Section -->
-    <div class="text-center">
+    <div class="text-center mb-8">
         <h1 class="fw-bold">Hubungi Kami</h1>
         <p class="mb-4">Diskusikan Kebutuhan Digital Perusahaan Anda dengan Swa. Wujudkan Platform Anda Sekarang.</p>
     </div>
 
     <!-- Subtitle Section -->
-    <div class="container my-5" style="margin-top: 70px; margin-bottom: 70px;">
-
-        <h4 class="fw-bold">Bagaimana Kami Menghubungi Anda?</h4>
-    </div>
+    <h4 class="fw-bold mb-5">Bagaimana Kami Menghubungi Anda?</h4>
 
     <!-- Form Section -->
     <form>
@@ -57,12 +52,8 @@
         </div>
 
         <!-- Button Section -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-end">
-                    <button type="submit" class="btn btn-primary">Kirim</button>
-                </div>
-            </div>
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Kirim</button>
         </div>
     </form>
 </div>

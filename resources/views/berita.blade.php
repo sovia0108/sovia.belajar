@@ -34,7 +34,7 @@
                     <img src="{{ asset('assets/img/image.png') }}" class="card-img-top custom-shadow" alt="Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban">
                 </div>
                 <div class="card-body position-relative" style="z-index: 2;">
-    <h5 class="card-title">Pelatihan Evaluasi & Kalibrasi Kinerja SWA di PJB Tuban</h5>
+    <h5 class="card-title">Pelatihan Evaluasi & Kalibrasi </h5>
     <p class="card-text" style="text-align: justify;">SWA mengadakan pelatihan evaluasi dan kalibrasi kinerja di PJ Tuban untuk mengevaluasi kinerja karyawan serta memahami cara penilaian kinerja, sebagai bagian dari komitmen untuk menjamin kepuasan pelanggan.</p>
 </div>
 
@@ -47,7 +47,7 @@
         <img src="{{ asset('assets/img/image2.png') }}" class="card-img-top" alt="Kegiatan Penilaian 5 R SWA">
         <div class="card-body position-relative" style="z-index: 2;">
             <h5 class="card-title">Kegiatan Penilaian 5 R SWA</h5>
-            <p class="card-text" style="text-align: justify;">SWA melaksanakan penilaian 5R dengan metode penataan dan pemeliharaan wilayah kerja guna menjaga ketertiban, efisiensi, disiplin, serta meningkatkan kinerja perusahaan secara keseluruhan.</p>
+            <p class="card-text" style="text-align: justify;">SWA melaksanakan penilaian 5R melalui metode penataan dan pemeliharaan area kerja untuk menjaga ketertiban, efisiensi, disiplin, serta meningkatkan produktivitas dan kinerja perusahaan guna mencapai hasil optimal.</p>
         </div>
     </div>
 </div>
@@ -66,37 +66,40 @@
     </div>
 
     <!-- Row 2 -->
-    <div class="row">
-        <!-- Card 4 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="{{ asset('assets/img/image.png') }}" class="card-img-top" alt="Pelatihan Manajemen Waktu">
-                <div class="card-body">
-                    <h5 class="card-title">Pelatihan Manajemen Waktu</h5>
-                    <p class="card-text">SWA memberikan pelatihan manajemen waktu kepada karyawan untuk meningkatkan produktivitas dan efisiensi dalam bekerja.</p>
-                </div>
+<div class="row">
+    <!-- Card 4 -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{{ asset('assets/img/image.png') }}" class="card-img-top" alt="Pelatihan Manajemen Waktu">
+            <div class="card-body">
+                <h5 class="card-title">Pelatihan Manajemen Waktu</h5>
+                <p class="card-text" style="text-align: justify;">
+                    SWA menyelenggarakan pelatihan manajemen waktu bagi karyawan untuk meningkatkan efisiensi, produktivitas, pengelolaan prioritas, serta kemampuan menyelesaikan tugas tepat waktu demi keberhasilan kerja optimal.
+                </p>
             </div>
         </div>
+    </div>
 
-        <!-- Card 5 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="{{ asset('assets/img/image2.png') }}" class="card-img-top" alt="Kegiatan Bakti Sosial">
-                <div class="card-body">
-                    <h5 class="card-title">Kegiatan Bakti Sosial</h5>
-                    <p class="card-text">SWA mengadakan kegiatan bakti sosial untuk masyarakat sebagai wujud kepedulian sosial perusahaan terhadap lingkungan sekitar.</p>
-                </div>
+    <!-- Card 5 -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{{ asset('assets/img/image2.png') }}" class="card-img-top" alt="Kegiatan Bakti Sosial">
+            <div class="card-body">
+                <h5 class="card-title">Kegiatan Bakti Sosial</h5>
+                <p class="card-text" style="text-align: justify;">
+                SWA menyelenggarakan bakti sosial sebagai wujud tanggung jawab sosial perusahaan, dengan memberikan bantuan untuk mendukung kesejahteraan masyarakat dan meningkatkan kualitas hidup mereka secara berkelanjutan.
+
             </div>
         </div>
-
-        <!-- Card 6 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="{{ asset('assets/img/image3.png') }}" class="card-img-top" alt="Workshop Kepemimpinan">
-                <div class="card-body">
-                    <h5 class="card-title">Workshop Kepemimpinan</h5>
-                    <p class="card-text">SWA menyelenggarakan workshop kepemimpinan untuk membantu karyawan dalam mengembangkan keterampilan manajemen dan kepemimpinan.</p>
-                </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{{ asset('assets/img/image2.png') }}" class="card-img-top" alt="Kegiatan Bakti Sosial">
+            <div class="card-body">
+                <h5 class="card-title">Workshop kepemimpinan</h5>
+                <p class="card-text" style="text-align: justify;">
+                Workshop Kepemimpinan SWA bertujuan mengembangkan keterampilan manajemen, komunikasi, dan pengambilan keputusan, agar karyawan menjadi pemimpin efektif yang meningkatkan produktivitas keberhasilan perusahaan.
             </div>
         </div>
     </div>

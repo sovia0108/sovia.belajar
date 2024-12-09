@@ -2,9 +2,7 @@
 @section('name', 'Mengapa Memilih Kami')
 
 @section('content')
-<br>
-<br>
-<br>
+<br><br><br>
 <section class="why-choose-us">
     <div class="container">
         <div class="section-title text-center">
@@ -84,43 +82,34 @@
         </div>
     </div>
 </section>
-<div class="container mt-5">
+
+<div class="container mt-5 mb-5">
     <h2 class="text-center">Budaya PT Swabina Gatra</h2>
     <p class="text-center">Pancagatra merupakan lima kompetisi dasar karyawan Swabina Gatra yang harus diketahui dan dilaksanakan</p>
 
-    <!-- Carousel -->
-    <div id="cultureCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel with additional bottom margin -->
+    <div id="cultureCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <!-- First slide -->
         <div class="carousel-item active">
           <img src="{{ asset('assets/img/image 15.png') }}" class="d-block w-100" alt="First Slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
         </div>
 
         <!-- Second slide -->
         <div class="carousel-item">
           <img src="{{ asset('assets/img/image 37.png') }}" class="d-block w-100" alt="Second Slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
+        </div>
+        
+        <!-- Additional slides -->
+        <div class="carousel-item">
+          <img src="{{ asset('assets/img/image 38.png') }}" class="d-block w-100" alt="Third Slide">
         </div>
         <div class="carousel-item">
-          <img src="{{ asset('assets/img/image 38.png') }}" class="d-block w-100" alt="Second Slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
+          <img src="{{ asset('assets/img/image 39.png') }}" class="d-block w-100" alt="Fourth Slide">
         </div>
         <div class="carousel-item">
-          <img src="{{ asset('assets/img/image 39.png') }}" class="d-block w-100" alt="Second Slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
+          <img src="{{ asset('assets/img/image 40.png') }}" class="d-block w-100" alt="Fifth Slide">
         </div>
-        <div class="carousel-item">
-          <img src="{{ asset('assets/img/image 40.png') }}" class="d-block w-100" alt="Second Slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-
-        <!-- Add more slides as needed -->
 
       </div>
 
@@ -134,9 +123,7 @@
         <span class="visually-hidden">Next</span>
       </button>
 
-      
-      </div>
     </div>
-  </div>
+</div>
 
 @endsection
